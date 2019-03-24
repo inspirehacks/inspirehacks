@@ -1,0 +1,39 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "#InspireHacks"
+themesDir = "themes"
+theme = "hugo-serif-theme"
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "This is #InspireHacks' official website"
+    meta_og_title = "InspireHacks"
+    meta_og_type = "website"
+    meta_og_url = "https://inspirehacks.com"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@inspirehacks"
+    meta_twitter_creator = "@inspirehacks"
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 2
+
+[[menu.main]]
+	name = "Testimonials"
+	url = "/testimonials/"
+	weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
